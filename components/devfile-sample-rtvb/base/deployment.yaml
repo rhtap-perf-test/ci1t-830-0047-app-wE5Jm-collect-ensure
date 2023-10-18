@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rtvb
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0047-tenant/ci1t-830-0047-app/devfile-sample-rtvb@sha256:f769b9280f849829d2c111693dbb6bba45dcc81d1f3cc6c66e44cb7a93fe9f08
         name: my-nodejs
         ports:
         - containerPort: 3001
